@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+/* Stylish start */
+.stylish{
+    background: url(photo/bg-masthead.jpg);
+    text-align: center;
+    padding: 350px 0px;
+    height: 100vh;
+    background-size: cover;
+}
+.stylish h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.stylish p{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.stylish input{
+        background: #1d809f;
+        color: #fff;
+        padding: 20px;
+        font-weight: bold;
+        font-size: 1.2em;
+        border: none;
+        border-radius: 5px;
+        transition: background .4s;
+}
+.stylish input:hover{
+    background: #155d74;
+}
+/* Stylish end */
+/* Project start */
+.project{
+    text-align: center;
+    padding: 120px 0px;
+}
+.project h1{
+    font-size: 2.1em;
+    font-weight: bold;
+}
+.project p{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.project input{
+    background: #343a40;
+    color: #fff;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    transition: background .4s;
+}
+.project input:hover{
+    background: #23272b;
+}
+/* Project end */
+/* Services start */
+.servic{
+    background: #1d809f;
+    padding: 150px 0px;
+    text-align: center;
+}
+.services-top p{
+    color: #ecb807;
+    font-weight: bold;
+}
+.services-top h1{
+    color: #fff;
+    font-size: 2.6em;
+    margin-top: 5px;
+}
+.services-bottom .services-item{
+    float: left;
+    width: 25%;
+    color: #fff
+}
+.services-bottom .services-icon{
+    background: #fff;
+    color:#1d809f;
+    padding: 25px;
+    border-radius: 100%;
+    width: 85px;
+    margin:auto;
+    margin-top: 50px;
+}
+.service .services-bottom{
+    margin-bottom: 10px;
+}
+/* Service end */
+/* Website start */
+.qutu{
+    background: url(photo/bg-callout.jpg);
+    padding: 300px 0px;
+    text-align: center;
+    background-size: cover;
+}
+.qutu h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.qutu input{
+    background: #1d809f;
+    color: #fff;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    transition: background .4s;
+    margin-top: 40px;
+}
+.qutu input:hover{
+    background: #155d74;
+}
+/* Website end */
+/* Portfolio start */
+.port{
+    padding: 100px 0px;
+}
+.port .port1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.port1 p{
+    color: #ecb807;
+    font-weight: bold;
+}
+.port1 h1{
+    font-size: 50px;
+}
+.port .port2{
+    width: 80%;
+    margin:auto;
+}
+.port2-metn{
+    padding-top: 180px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+.port2-item{
+    width: 50%;
+    float: left;
+    padding: 50px 0px;
+    background: url(photo/portfolio-1.jpg);
+    background-size: cover;
+}
+.port-img2{
+    background: url(photo/portfolio-2.jpg);
+    background-size: cover;
+}
+.port-img3{
+    background: url(photo/portfolio-3.jpg);
+    background-size: cover;
+}
+.port-img4{
+    background: url(photo/portfolio-4.jpg);
+    background-size: cover;
+}
+/* Portfolio end */
+/* Section start */
+.section{
+    text-align: center;
+    padding: 150px;
+    background: #1d809f;
+}
+.section .h{
+    color: #fff;
+}
+.section .but input{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    transition: background .4s;
+    margin: 30px 10px;
+}
+.section .but input:hover{
+    background: rgb(131, 126, 126);
+}
+.section .fr{
+    background: #343a40;
+    color: #fff;
+    transition: background .4s;
+}
+.section .fr:hover{
+    background: #111214;
+}
+/* Section end */
+
+   
+
